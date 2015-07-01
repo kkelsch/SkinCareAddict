@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SkinCareAddict</string>
+
+    <!--- Section Names -->
+    <string name="title_section1">Tracker</string>
+    <string name="title_section2">My Routine</string>
+    <string name="title_section3">My Products</string>
+    <string name="title_section4">Tools</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--- Tools -->
+    <string name="button_timer">Timer</string>
+</resources>
