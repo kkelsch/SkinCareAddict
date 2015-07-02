@@ -32,4 +32,17 @@
         <item>Oil</item>
         <item>Other</item>
     </string-array>
+
+    <!--- New Product -->
+    <string name="name">Name</string>
+    <string name="make_new_product">Create a new product:</string>
+    <string name="spf">SPF</string>
+    <string name="pH">pH</string>
+    <string name="exp_date">Expiration Date</string>
+    <string name="key_ingredients">Key Ingredients</string>
+    <string name="my_rating">My Rating</string>
+    <string name="comments">Comments</string>
+    <string name="done">Done</string>
+
+
 </resources>
