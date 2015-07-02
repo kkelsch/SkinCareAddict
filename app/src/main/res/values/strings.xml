@@ -19,9 +19,10 @@
     <string name="my_cabinet">My Cabinet:</string>
     <string name="choose_product_type">Filter by Type:</string>
     <string name="new_product">New Product</string>
+    <string name="no_items">Eeek! I'm empty.</string>
 
     <string-array
-        name="types_of_products">
+        name="types_of_products_filter">
         <item>All</item>
         <item>Cleanser</item>
         <item>Exfoliation</item>
@@ -44,5 +45,16 @@
     <string name="comments">Comments</string>
     <string name="done">Done</string>
 
+    <string-array
+        name="types_of_products">
+        <item>Cleanser</item>
+        <item>Exfoliation</item>
+        <item>Serum</item>
+        <item>Spot Treatment</item>
+        <item>Sunscreen</item>
+        <item>Mask</item>
+        <item>Oil</item>
+        <item>Other</item>
+    </string-array>
 
 </resources>
