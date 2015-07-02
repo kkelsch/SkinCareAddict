@@ -14,4 +14,22 @@
 
     <!--- Tools -->
     <string name="button_timer">Timer</string>
+
+    <!--- My Products -->
+    <string name="my_cabinet">My Cabinet:</string>
+    <string name="choose_product_type">Filter by Type:</string>
+    <string name="new_product">New Product</string>
+
+    <string-array
+        name="types_of_products">
+        <item>All</item>
+        <item>Cleanser</item>
+        <item>Exfoliation</item>
+        <item>Serum</item>
+        <item>Spot Treatment</item>
+        <item>Sunscreen</item>
+        <item>Mask</item>
+        <item>Oil</item>
+        <item>Other</item>
+    </string-array>
 </resources>
