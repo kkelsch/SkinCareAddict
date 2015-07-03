@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/txtlbl3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/make_new_product"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtProductName"
+        android:hint="@string/name" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spNewProductType"
+        android:spinnerMode="dropdown"
+        android:entries="@array/types_of_products"
+        android:clickable="true"
+        android:layout_alignTop="@+id/txtlbl2"
+        android:layout_toRightOf="@+id/txtlbl1"
+        android:layout_toEndOf="@+id/txtlbl1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSPF"
+        android:hint="@string/spf" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtpH"
+        android:hint="@string/pH"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtExpDate"
+        android:inputType="date"
+        android:hint="@string/exp_date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKeyIngredients"
+        android:hint="@string/key_ingredients" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtComment"
+        android:hint="@string/comments" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/my_rating"
+        android:id="@+id/textView4"
+        android:hint="@string/my_rating" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prodRatingBar"
+        android:numStars="5"
+        android:rating="0"
+        android:stepSize="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:id="@+id/btnDone_new_product"
+        android:layout_gravity="right"
+        android:onClick="onDoneNewProduct" />
+
+</LinearLayout>
